@@ -466,7 +466,7 @@ label.logo {
     flex: 1;
   }
   .some-page-wrapper .row .column .kick-img {
-    background-image: url(images/kick_img.jpg);
+    background-image: url(images/kick_img.avif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 250px;
@@ -502,13 +502,13 @@ label.logo {
     text-align: center;
   }
   .some-page-wrapper .row .column .box-img {
-    background-image: url(images/boxImg.jpg);
+    background-image: url(images/boxImg.avif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 250px;
   }
   .some-page-wrapper .row .column .pt-img {
-    background-image: url(images/ptImg.jpg);
+    background-image: url(images/ptImg.avif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 250px;
