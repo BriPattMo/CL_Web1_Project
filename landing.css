@@ -568,3 +568,96 @@ label.logo {
     color: #253b57;
   }
   
+
+/* MAIN CONTENT MEDIA QUERY*/
+  @media (min-width: 925px) {
+    .some-page-wrapper {
+      background-color: #ffffff;
+    }
+    .some-page-wrapper .row {
+      flex-direction: row;
+    }
+    .some-page-wrapper .row .column {
+      flex-basis: 100%;
+      flex: 0 33.33%;
+    }
+    .some-page-wrapper .row .column .kick-img {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .box-img {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .pt-img {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .kick-txt {
+      background-color: #ffffff;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .kick-txt h2 {
+      margin: 105px 0px 25px 0px;
+      font-size: 2.2rem;
+    }
+    .some-page-wrapper .row .column .kick-txt p {
+      padding: 0px 15px;
+      font-size: 1.8rem;
+    }
+    .some-page-wrapper .row .column .box-txt {
+      background-color: #ffffff;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .box-txt h2 {
+      margin: 100px 0px 35px 0px;
+      font-size: 2.2rem;
+    }
+    .some-page-wrapper .row .column .box-txt p {
+      font-size: 1.8rem;
+      padding: 0px 15px;
+    }
+    .some-page-wrapper .row .column .pt-txt {
+      background-color: #ffffff;
+      height: 350px;
+    }
+    .some-page-wrapper .row .column .pt-txt h2 {
+      margin: 105px 0px 25px 0px;
+      font-size: 2.2rem;
+    }
+    .some-page-wrapper .row .column .pt-txt p {
+      padding: 0px 15px;
+      font-size: 1.8rem;
+    }
+    .row :nth-child(1) {
+      order: 1;
+    }
+    .row :nth-child(2) {
+      order: 4;
+    }
+    .row :nth-child(3) {
+      order: 2;
+    }
+    .row :nth-child(4) {
+      order: 3;
+    }
+    .row :nth-child(5) {
+      order: 6;
+    }
+    .row :nth-child(6) {
+      order: 5;
+    }
+    .scheduling h2 {
+      padding-top: 1.7rem;
+    }
+    .scheduling p {
+      padding: 0rem 3rem;
+    }
+    .scheduling button {
+      padding: 20px 30px;
+    }
+  }
+  
