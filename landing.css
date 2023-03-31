@@ -424,6 +424,7 @@ label.logo {
     }
 }
 
+
 /* MAIN CONTENT */
 .head-img {
     width: 100%;
@@ -558,6 +559,7 @@ label.logo {
   .scheduling button:hover {
     background-color: black;
     text-transform: uppercase;
+    transition:all 0.5s ease;
   }
   .scheduling button:hover a {
     color: #fafafa;
@@ -567,6 +569,13 @@ label.logo {
     font-size: 1.6rem;
     color: #253b57;
   }
+
+  .grow:hover
+{
+ -webkit-transform: scale(1);
+ -ms-transform: scale(1);
+ transform: scale(1);
+}
   
 
 /* MAIN CONTENT MEDIA QUERY*/
